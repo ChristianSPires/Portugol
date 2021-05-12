@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro contador=0, resultado, tab
+
+		escreva ("Digite o número que voce deseja a tabuada: ")
+		leia (tab)
+
+		faca{
+			resultado = tab * contador
+			escreva (tab + " x " + contador + " = " + resultado + "\n")
+			contador++
+		}enquanto(contador<=10)
+	}
+}
