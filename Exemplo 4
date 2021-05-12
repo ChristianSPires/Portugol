@@ -1,0 +1,14 @@
+programa
+{
+	funcao inicio()
+	{
+		cadeia infp[][] = {{"João","São Paulo","(11) 9999-5241"},{"Maria","Ribeirão Preto","(16) 9999-8596"},{"Ana","Manaus","(92) 9999-8574"}}
+		inteiro cont = 0
+
+		faca
+		{
+			escreva("Nome: " + infp[cont][0] + "    Cidade: " + infp[cont][1] + "    Celular: " + infp[cont][2] + "\n")
+			cont++
+		}enquanto (cont<=2)
+	}
+}
